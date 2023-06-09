@@ -2,9 +2,9 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <section id="main">
+    <section id="intro">
       <Navbar />
-      <div className="name">
+      <div className="header">
         <h1>
           It's a <span>ReactJS</span> Website
         </h1>

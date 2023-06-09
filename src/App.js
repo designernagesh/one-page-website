@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Header from './components/Header';
 import Features from './pages/Features';
 import Services from './pages/Services';

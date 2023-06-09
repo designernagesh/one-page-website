@@ -27,7 +27,7 @@ const Navbar = () => {
 
       <ul className="menu">
         <li>
-          <Link to="main" className='active'>Home</Link>
+          <Link to="intro" className='active'>Home</Link>
         </li>
         <li>
           <Link to="features">Features</Link>
@@ -36,13 +36,10 @@ const Navbar = () => {
           <Link to="services">Services</Link>
         </li>
         <li>
-          <Link to="subscribe">Subscribe</Link>
-        </li>
-        <li>
           <Link to="contact">Contact</Link>
         </li>
       </ul>
-        <Link to="#" className='hey'>App</Link>
+        <Link to="intro" className='hey'>App</Link>
     </nav>
   );
 };
